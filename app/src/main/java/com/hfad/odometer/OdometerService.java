@@ -4,7 +4,7 @@ import android.app.Service;
 import android.content.Intent;
 import android.os.Binder;
 import android.os.IBinder;
-(529)
+
 public class OdometerService extends Service {
     private final IBinder binder = new OdometerBinder();
     public OdometerService() {
